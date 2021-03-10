@@ -25,6 +25,8 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)sendSmartHeartBeat;
 - (void)receiveSmartHeartBeat:(MsBuffer *)buffer;
 
+- (void)TestTeceiveSmartHeartBeat:(MsBuffer *)buffer;
+
 @end
 
 NS_ASSUME_NONNULL_END

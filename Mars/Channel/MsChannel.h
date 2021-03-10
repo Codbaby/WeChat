@@ -44,6 +44,9 @@ typedef NS_ENUM(uint8_t, MsChannelType) {
 // 更新reader密钥
 - (void)updateReaderConnectionCipherState:(NSData *)expand;
 
+// 测试
+- (void)TestUpdateReaderConnectionCipherState:(NSData *)expand;
+
 @end
 
 NS_ASSUME_NONNULL_END

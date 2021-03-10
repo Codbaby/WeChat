@@ -27,6 +27,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)stopSmartHeartBeat;
 
+- (void)TestStopSmartHeartBeat;
+
 @end
 
 NS_ASSUME_NONNULL_END

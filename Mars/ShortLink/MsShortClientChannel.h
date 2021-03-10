@@ -44,6 +44,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)send:(MsBuffer *)buffer;
 
+- (void)TestSend:(MsBuffer *)buffer;
+
 @end
 
 NS_ASSUME_NONNULL_END

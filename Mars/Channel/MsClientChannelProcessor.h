@@ -33,6 +33,9 @@ NS_ASSUME_NONNULL_BEGIN
 // short
 - (EncryptedExtensions *)createEncryptedExtensions:(MsHandShakeState *)handShakeState;
 
+// short
+- (EncryptedExtensions *)TestCreateEncryptedExtensions:(MsHandShakeState *)handShakeState;
+
 @end
 
 NS_ASSUME_NONNULL_END

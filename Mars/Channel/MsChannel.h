@@ -16,6 +16,7 @@ typedef NS_ENUM(uint8_t, MsChannelType) {
     MsChannelTypeLong = 2,
     MsChannelTypeShort = 3,
     
+    
 };
 
 @protocol MsChannelDelegate <NSObject>
